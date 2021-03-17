@@ -41,8 +41,8 @@ def welcome():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/start <br/>"
-        f"/api/v1.0/start/end <br/>"
+        f"/api/v1.0/start_date (write as YYYY-MM-DD)<br/>"
+        f"/api/v1.0/start_date/end_date (write as YYYY-MM-DD/YYYY-MM-DD)<br/>"
     )
 
 @app.route("/api/v1.0/precipitation")
